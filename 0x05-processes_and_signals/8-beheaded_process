@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Kill the 7-highlander process with "SIGKILL" signal
+
+pgrep -f 7-highlander | xargs kill -9

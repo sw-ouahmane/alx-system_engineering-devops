@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# create a pid file and trap signals to remove it
+
+trap 'echo "I hate the kill command"; rm "$file"; exit' SIGTERM SIGQUIT
+trap "echo Y U no love me?!" SIGINT
+
+file="/var/run/myscript.pid"
+
+echo $$ > "$file"
+while true; do
+  echo "To infinity and beyond"
+  sleep 2
+done
