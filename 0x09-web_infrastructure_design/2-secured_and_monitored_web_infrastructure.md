@@ -1,4 +1,4 @@
-![image](https://github.com/ExceptedPrism3/alx-system_engineering-devops/assets/68008341/f53b8021-a69a-4214-a99e-a5dca99848bb)
+![image](https://github.com/sw-ouahmane/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/secured_and_monitored_web_infrastructure.PNG)
 
 ### For every additional element, why you are adding it
 
