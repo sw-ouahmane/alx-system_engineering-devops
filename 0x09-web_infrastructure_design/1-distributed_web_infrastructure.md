@@ -1,4 +1,4 @@
-![image](https://github.com/ExceptedPrism3/alx-system_engineering-devops/assets/68008341/4e620b9a-5008-4fda-a37a-fb15d3a41313)
+![image](https://github.com/sw-ouahmane/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/1-distributed_web_infrastructure.PNG)
 
 ### For additional element, why you are adding it?
 
@@ -14,11 +14,11 @@ Our load-balancer is enabling an Active-Active set up.
 
 The Active-Active cluster is typically made up of at least two nodes, both activaley running the same type of services at the same time. Their purpose is to achieve load balancing by distributing tasks to different servers in order to prevent overload. As there are more than one servers (nodes) available to severe, the service time and process throughput can have improvements.
 
-![image](https://github.com/ExceptedPrism3/alx-system_engineering-devops/assets/68008341/18b611ec-d603-41a5-81aa-d9ab062d82ea)
+![image](https://github.com/sw-ouahmane/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/2-distributed_web_infrastructure.PNG)
 
 On the other hand the Active-Passive setup, also made up of at least two nodes (servers), however not all nodes are going to be active simultaneously. In this configuration, while one node is active, the other nodes (failover servers) are passively waiting to be active as backup in case the primary server (the one being in use actively) is disconnected or unable to serve. Under this configuration, and as in the Active-Active set up, it is important that primary and failover nodes have the exact server configuration, so clients won’t be able to tell the difference when the failover server takes over the operation (Villanueva, 2017).
 
-![image](https://github.com/ExceptedPrism3/alx-system_engineering-devops/assets/68008341/557b937f-db13-4053-bdd2-ae133c1825db)
+![image](https://github.com/sw-ouahmane/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/3-distributed_web_infrastructure.PNG)
 
 ### How a database Primary-Replica (Master-Slave) cluster works
 
