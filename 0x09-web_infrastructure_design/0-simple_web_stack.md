@@ -1,4 +1,4 @@
-![image](https://github.com/sw-ouahmane/alx-system_engineering-devops/tree/master/0x09-web_infrastructure_design/Asset/simple_web_stack.PNG)
+![image](https://github.com/sw-ouahmane/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/Asset/blob/main/simple_web_stack.PNG)
 
 ### What is a server
 Servers are physical machines (as hardwares), virtual machines or softwares (computer programs) that serve or provide functionality to other programs or devices called “clients”. The term server comes from queuing theory used in Kendall’s notation, where servers serve or process the clients requirements in the same way as a telephone operator, a cooker or a production machine process incoming orders, having in mind its capacity and service process time.
@@ -13,7 +13,7 @@ On the other hand, virtual servers function more like virtual machines, or virtu
 The role of the domain name is to replace complex IP addresses numbers into easily understandable names so humans can remember and communicate them in a better way.
 
 ### What type of DNS record www is in www.foobar.com
-DNS record of www belongs to a subdomain of the www.foobar.com
+DNS record of www belongs to a subdomain of the www.foobar.com   /blob/main/
 
 ### What is the role of the web server
 Web servers are what make Web hosting possible, that is, the possibility of renting a space on a server to store the files of our site.
