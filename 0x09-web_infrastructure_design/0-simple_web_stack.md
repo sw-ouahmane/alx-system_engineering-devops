@@ -1,4 +1,4 @@
-![image](https://github.com/sw-ouahmane/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/Asset/blob/main/simple_web_stack.PNG)
+![image](https://github.com/sw-ouahmane/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/simple_web_stack.PNG)
 
 ### What is a server
 Servers are physical machines (as hardwares), virtual machines or softwares (computer programs) that serve or provide functionality to other programs or devices called “clients”. The term server comes from queuing theory used in Kendall’s notation, where servers serve or process the clients requirements in the same way as a telephone operator, a cooker or a production machine process incoming orders, having in mind its capacity and service process time.
