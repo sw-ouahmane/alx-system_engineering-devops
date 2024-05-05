@@ -48,4 +48,4 @@ frontend clickviral-frontend-https
 backend clickviral-backend
         balance roundrobin
         server 531192-web-01 54.237.43.101:80 check
-        server 531192-web-02 100.25.156.252:80 check
+	server 531192-web-02 100.25.156.252:80 check
