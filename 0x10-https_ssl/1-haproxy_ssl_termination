@@ -41,9 +41,9 @@ frontend ouahmane-frontend
         default_backend ouahmane-backend
 
 frontend ouahmane-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/clickviral.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.ouahmane.tech.pem
         http-request set-header X-Forwarded-Proto https
-        default_backend clickviral-backend
+        default_backend ouahmane-backend
 
 backend ouahmane-backend
         balance roundrobin
