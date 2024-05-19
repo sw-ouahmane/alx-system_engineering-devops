@@ -1,5 +1,5 @@
 global
-        log /dev/log    local0
+       log /dev/log    local0
         log /dev/log    local1 notice
         chroot /var/lib/haproxy
         stats socket /run/haproxy/admin.sock mode 660 level admin expose-fd listeners
@@ -49,3 +49,4 @@ backend ouahmane-backend
         balance roundrobin
         server 531192-web-01 54.237.43.101:80 check
         server 531192-web-02 52.86.186.82:80 check
+
